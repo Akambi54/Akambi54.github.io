@@ -1,28 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #ffe6f2;
-    color: #d63384;
-}
-header {
-    background-color: #ff4081;
-    color: white;
-    padding: 20px;
+body { font-family: Arial, sans-serif; text-align: center; background-color: #ffe6f2; color: #d63384; } header { background-color: #ff4081; color: white; padding: 20px; border-radius: 10px; } nav a { color: #ff4081; font-size: 18px; margin: 10px; text-decoration: none; } nav a:hover { text-decoration: underline; } main { margin: 20px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+.a img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
     border-radius: 10px;
-}
-nav a {
-    color: #ff4081;
-    font-size: 18px;
-    margin: 10px;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-main {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
